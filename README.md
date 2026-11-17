@@ -30,13 +30,13 @@
 2. 配置环境变量：
 在根目录新建 .env 文件，填入你的 API Key（本项目使用智谱 GLM-4）：
 
-env
-ZHIPU_API_KEY=your_api_key_here
+  ```env
+  ZHIPU_API_KEY=your_api_key_here
 3. 运行项目一（智能客服 Web 端）：
 
-bash
-streamlit run app.py
+  ```bash
+  streamlit run app.py
 4. 运行项目二（数据分析 Agent 端）：
 
-bash
-python agent.py
+  ```bash
+  python agent.py
